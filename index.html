@@ -1,0 +1,188 @@
+<html>
+	<head>
+		<title>Portfolio Website | Nabil's Website</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	</head>
+	
+	<body>
+	
+		<table id ="top" border="0" align="center" width="100%">
+			<tr height ="80" align="center">
+				<td colspan="3">
+				
+					<!-- Menu -->
+					<table border="0" align="center">
+						<tr align="center">
+							<td width="300">
+								<p><a href="index.html"><img src="images/logo.png" width="175" height="80"></a></p>
+							</td>
+							<td width="150">
+								<p><a href="index.html"><abbr title="Welcome to my personal portfolio website!">Home</abbr></p></a>
+							</td>
+							<td width="150">
+								<p><a href="#about"><abbr title="Get to know about me!">About</abbr></p></a>
+							</td>
+							<td width="150">
+								<p><a href="hobbies.html"><abbr title="What do I like to do?">Hobbies</abbr></p></a>
+							</td>
+							<td width="150">
+								<p><a href="skills.html"><abbr title="What are my expertise?">Skills</abbr></p></a>
+							</td>
+							<td width="150">
+								<p><a href="resume.html"><abbr title="My education and what I've achieved">Resume</abbr></p></a>
+							</td>
+							<td width="150">
+								<p><a href="gallery.html"><abbr title="Pictures of my life">Gallery</abbr></p></a>
+							</td>
+							<td width="300">
+								<p><a href="contact.html"><abbr title="Let's get in touch!">Contact</abbr></p></a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<!-- Home -->
+			<tr height="750" align="center" id="home">
+				<td width="200"></td>
+				<td width="800" style="text-align: left"><font size="5">Hello and Welcome! I am</font><br>
+					<h1> Mohammad Nabil<br>bin<br>Abdul Rahman</h1>
+					<ul>
+						<li style="list-style-image:url(images/red-star.png); list-style-position: outside;">
+						<font size="5"><abbr title="Universiti Teknologi MARA">UiTM</abbr> Student</font>
+						</li>
+					</ul>
+					<div class="buttons">
+						<a href="skills.html" class="btn skills">Skills</a>
+						<a href="resume.html" class="btn resume">Resume</a>
+						<a href="contact.html" class="btn contact">Contact</a>
+					</div>
+				</td>
+				<td>
+					<!-- Image Slideshow -->
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+							<img src="images/banner1.png" style="width: 600; height: 750;">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="images/banner5.png" style="width: 600; height: 750;">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="images/banner6.png" style="width: 600; height: 750;">
+						</div>
+						
+						<div class="mySlides fade">
+							<img src="images/banner7.png" style="width: 600; height: 750;">
+						</div>
+
+					</div>
+					
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+						<span class="dot" onclick="currentSlide(3)"></span> 
+						<span class="dot" onclick="currentSlide(4)"></span>
+					</div>
+				</td>
+			</tr>
+			
+			<!-- Social Media Icons -->
+			<tr>
+				<td colspan="3" align="center" height="50">
+					<div class="icons">
+						<a href="https://www.facebook.com/nabil.abdulrahman.12" target="_blank" class="icon facebook">
+							<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+							<path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+							</svg>
+						</a>
+						<a href="https://www.instagram.com/nxobil/profilecard/?igsh=MW16cTdhNmcxY3l4OQ==" target="_blank" class="icon instagram">
+							<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+							<path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+							</svg>
+						</a>
+						<a href="https://x.com/NoobiliciousMN" target="_blank" class="icon twitter">
+							<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+							<path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
+							</svg>
+						</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center" height="70"></td>
+			</tr>
+			
+			<!-- About Me -->
+			<tr>
+				<td colspan="3" align="center" height="70" id="about" style="font-size: 24px;"><marquee width="500" scrollamount="20" scrolldelay="200">&#10022; About Me &#10022;</marquee></td>
+			</tr>
+			<tr height ="50" align="center">
+				<td colspan="3">
+					<table border="0" align="center">
+						<tr height="750" align="center">
+							<td width="600">
+								<p><img src="images/banner4.jpg" width="600" height="750" style="outline-style: solid; outline: solid 5px; border-radius: 25px;"></p>
+							</td>
+							<td width="550" style="padding-left: 30px;"><font size="7" style="font-family: PT Sans">Mohammad Nabil bin Abdul Rahman</font><br>
+								<p style="text-align: left; font-size: 18px; line-height: 1.5;">Hello there! I am a student currently studying in Diploma in Information Management at UiTM Rembau. I am hardworking and fully motivated, with of utmost passion towards Information Technology. I am a well-depended and well-organized individual, and will be fully dedicated and responsible for any tasks at hand given. I have a keen eye for any additional details, and would give full focus and try my best to complete my task and fulfill my duties as perfectly as I can with maximum results. I have great communication skills, so I am able to work in a group effectively. Moreover, I would describe myself as a mature, open-minded and honest person, as I am open to any ideas others would give, allowing group projects to be well-coordinated. Plus, I try to be fair in everything that I do. Not only can I work excellently in a group, but I can also work independently just as well. I am very keen on seeking new experiences as well as developing new skills.</p>
+								<ul style="text-align: left; font-size: 18px; line-height: 1.5;">
+								<li type="circle">Birthday: June 17, 2004</li>
+								<li type="circle">Phone: +6018-371 0917</li>
+								<li type="circle">Email: mohdnabilabdrahman@gmail.com</li>
+								<li type="circle">From: Kuala Lumpur, Malaysia</li>
+								<li type="circle">Languages: English, Malay</li>
+								</ul>
+								<a class="button-download" href="download/resume.pdf" target="_blank" style="font-size: 18px">View Full Resume</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center" height="70"></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center" height="70"></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center" height="70">
+				<a href="#top" class="button-topjump">Jump to Top</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center" height="70">&copy; 2025 | Designed by <a class="footer">Nabil Abdul Rahman</a>. All Rights Reserved.</td>
+			</tr>
+		</table>
+		<script>
+		let slideIndex = 0;
+			showSlides();
+
+		function showSlides() {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1}    
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		} 
+		
+		</script>
+	</body>
+</html>
